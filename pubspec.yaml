@@ -1,0 +1,37 @@
+name: neo_jarmawijaya_2042006
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/gallery/
+    - assets/images/music/
+    - assets/gif/
+
+  fonts:
+    - family: Josefin
+      fonts:
+        - asset: assets/fonts/JosefinSans.ttf
+        - asset: assets/fonts/JosefinSans-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
